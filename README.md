@@ -7,7 +7,7 @@
 Node-Red nodes for the realization of Software-PLC with Ladder-Logic
 
 #### Documentation and examples can be found here:
-https://github.com/redplc/automation_using_nodered
+https://github.com/redplc/redplc/automation_using_nodered.pdf
 
 ## Nodes
 - **contact**: Ladder Logic Contact.
