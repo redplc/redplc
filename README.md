@@ -56,8 +56,10 @@ Variables are stored in Node-Red global context memory as arrays:
 ## Module Nodes
 Modules are nodes that use hardware or communication and updates the redPlc variables.<br>
 
-- [@redplc/node-red-rpi-gpio](https://www.npmjs.com/package/@redplc/node-red-rpi-gpio) Raspberry Pi **gpio**.<br>
-- [@redplc/node-red-rpi-ads1115](https://www.npmjs.com/package/@redplc/node-red-rpi-ads1115) Raspberry Pi **ads1115** 16bit analog to digital converter.<br>
-- [@redplc/node-red-rpi-mcp3424](https://www.npmjs.com/package/@redplc/node-red-rpi-mcp3424) Raspberry Pi **mcp3424** 18bit analog to digital converter.<br>
-- [@redplc/node-red-rpi-ds18b20](https://www.npmjs.com/package/@redplc/node-red-rpi-ds18b20) Raspberry Pi **ds18b20** temperature sensor.<br>
-- [@redplc/node-red-time](https://www.npmjs.com/package/@redplc/node-red-time) Get **System-Time** or **NTP-Time**.<br>
+|Module-Node|Function|
+|---|---|
+|[@redplc/node-red-rpi-gpio](https://www.npmjs.com/package/@redplc/node-red-rpi-gpio)|Raspberry Pi **gpio**.|
+|[@redplc/node-red-rpi-ads1115](https://www.npmjs.com/package/@redplc/node-red-rpi-ads1115)|Raspberry Pi **ads1115** 16bit analog to digital converter.|
+|[@redplc/node-red-rpi-mcp3424](https://www.npmjs.com/package/@redplc/node-red-rpi-mcp3424)|Raspberry Pi **mcp3424** 18bit analog to digital converter.|
+|[@redplc/node-red-rpi-ds18b20](https://www.npmjs.com/package/@redplc/node-red-rpi-ds18b20) |Raspberry Pi **ds18b20** temperature sensor.|
+|[@redplc/node-red-time](https://www.npmjs.com/package/@redplc/node-red-time)| Get **System-Time** or **NTP-Time**.|
