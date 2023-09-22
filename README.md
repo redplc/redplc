@@ -39,7 +39,6 @@ Download File:
 
 redPlc nodes implements Software PLC functionality in Node-Red.<br>
 The control logic is realized as [ladder logic](https://en.wikipedia.org/wiki/Ladder_logic) (LD) according standard IEC 61131-3.<br>
-Modules are nodes that use hardware or communication and updates the redPlc variables.<br>
 Variables are stored in Node-Red global context memory as arrays:
 
 |Variable|Function|Array Of|Created by|
@@ -54,3 +53,11 @@ Variables are stored in Node-Red global context memory as arrays:
 |**QA**|Analog Output|Number|Analog Output Modules|
 |**MA**|Analog Memory|Number|Memory Node|
 
+## Module Nodes
+Modules are nodes that use hardware or communication and updates the redPlc variables.<br>
+
+- [@redplc/node-red-rpi-gpio](https://www.npmjs.com/package/@redplc/node-red-rpi-gpio) Raspberry Pi gpio.<br>
+- [@redplc/node-red-rpi-ads1115](https://www.npmjs.com/package/@redplc/node-red-rpi-ads1115) Raspberry Pi ads1115 16bit adc.<br>
+- [@redplc/node-red-rpi-mcp3424](https://www.npmjs.com/package/@redplc/node-red-rpi-mcp3424) Raspberry Pi mcp3424 18bit adc.<br>
+- [@redplc/node-red-rpi-ds18b20](https://www.npmjs.com/package/@redplc/node-red-rpi-ds18b20) Raspberry Pi ds18b20 temperature sensor.<br>
+- [@redplc/node-red-time](https://www.npmjs.com/package/@redplc/node-red-time) Get System-Time or NTP-Time .<br>
