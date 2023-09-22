@@ -4,10 +4,15 @@
 [![platform](https://img.shields.io/badge/platform-redPlc-ffa500)](https://flows.nodered.org/node/@redplc/node-red-redplc/)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZDRCZBQFWV3A6)
 
-Node-Red nodes for the realization of Software-PLC with Ladder-Logic
+redPlc Node-Red nodes for the realization of Software-PLC with Ladder-Logic
 
 #### Documentation and examples can be found here:
-https://github.com/redplc/redplc/automation_using_nodered.pdf
+https://github.com/redplc/redplc/
+
+#### Little tutorial using redPlc:
+Download File:
+[automation_using_nodered.pdf](https://github.com/redplc/redplc/raw/main/automation_using_nodered.pdf)
+
 
 ## Nodes
 - **contact**: Ladder Logic Contact.
@@ -48,10 +53,4 @@ Variables are stored in Node-Red global context memory as arrays:
 |**IA**|Analog Input|Number|Analog Input Modules|
 |**QA**|Analog Output|Number|Analog Output Modules|
 |**MA**|Analog Memory|Number|Memory Node|
-
-The variable notation is [variable][address].[index]<br>
-where maximum address is 999 and index is 63.<br>
-Example for Digital Input: **I5.3**<br>
-Some indexes also have symbolic names: **C0.CV** (Counter Value).<br>
-Unused array elements are set to **undefined**.
 
