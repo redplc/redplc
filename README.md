@@ -6,13 +6,14 @@
 
 redPlc Node-Red nodes for the realization of Software-PLC with Ladder-Logic
 
-#### Documentation and examples can be found here:
+- Documentation and examples:
 https://github.com/redplc/redplc/
 
-#### Little tutorial using redPlc:
-Download File:
+- Download little tutorial using redPlc:
 [automation_using_nodered.pdf](https://github.com/redplc/redplc/raw/main/automation_using_nodered.pdf)
 
+- Install redPlc:
+[NPM](https://www.npmjs.com/package/@redplc/node-red-redplc/)
 
 ## Nodes
 - **contact**: Ladder Logic Contact.
