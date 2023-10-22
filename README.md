@@ -8,6 +8,8 @@ redPlc Node-Red nodes for the realization of Software-PLC with Ladder-Logic acco
 - Install redPlc Nodes:<br>
 [@redplc/node-red-redplc](https://www.npmjs.com/package/@redplc/node-red-redplc/)
 
+- Install Module Nodes for your Hardware
+
 ### Module Nodes not hardware based 
 
 |Module-Node|Function|
@@ -18,7 +20,7 @@ redPlc Node-Red nodes for the realization of Software-PLC with Ladder-Logic acco
 
 |Module-Node|Function|
 |---|---|
-|[@redplc/node-red-rpi-gpio](https://www.npmjs.com/package/@redplc/node-red-rpi-gpio)|**gpio**.|
+|[@redplc/node-red-rpi-gpio](https://www.npmjs.com/package/@redplc/node-red-rpi-gpio)|**GPIO** digital input/output, pwm, counter.|
 |[@redplc/node-red-rpi-ads1115](https://www.npmjs.com/package/@redplc/node-red-rpi-ads1115)|**ads1115** 16bit analog to digital converter|
 |[@redplc/node-red-rpi-mcp3424](https://www.npmjs.com/package/@redplc/node-red-rpi-mcp3424)|**mcp3424** 18bit analog to digital converter|
 |[@redplc/node-red-rpi-ds18b20](https://www.npmjs.com/package/@redplc/node-red-rpi-ds18b20) |**ds18b20** temperature sensor|
