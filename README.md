@@ -8,7 +8,10 @@ redPlc Node-Red nodes for the realization of Software-PLC with Ladder-Logic acco
 - Install redPlc Nodes:<br>
 [@redplc/node-red-redplc](https://www.npmjs.com/package/@redplc/node-red-redplc/)
 
-- Install Module Nodes for your Hardware
+- Install Module Nodes.<br>
+Module Nodes exchange data with hardware or communication<br>
+and updates the redPlc variables.<br>
+Module Nodes also creates the I, Q, IA and QA variables.<br>
 
 ### Module Nodes not hardware based 
 
@@ -30,3 +33,53 @@ redPlc Node-Red nodes for the realization of Software-PLC with Ladder-Logic acco
 |---|---|
 |[@redplc/node-red-wago-cc100-io](https://www.npmjs.com/package/@redplc/node-red-wago-cc100-io)|Wago CC100 Controller I/O|
 
+### Example
+
+In this example a tank is being filled or emptied.<br>
+The process is started with the START switch<br>
+and stopped with the STOP switch.<br>
+The filling level of the tank is determined using the LOW SWITCH and HIGH SWITCH.<br>
+When the IN VALVE is activated, the tank is filled.<br>
+When the OUT VALVE is activated, the tank is emptied.<br>
+The control automatically fills and empties the tank.<br>
+
+This is the original Ladder Logic:
+
+https://www.sanfoundry.com/plc-program-control-level-single-tank/
+
+![image info](images/TANK.png)
+
+This is the pin assignment for Raspberry Pi:<br>
+|GPIO Pin|Set|Variable|Function|
+|:--|:--|:--|:--|
+|GPIO21|Input/Pullup|I0.21|START|
+|GPIO20|Input/Pullup|I0.20|STOP|
+|GPIO16|Input/Pullup|I0.16|LOW SWITCH|
+|GPIO12|Input/Pullup|I0.12|HIGH SWITCH|
+|GPIO23|Output|Q0.23|OUT VALVE|
+|GPIO24|Output|Q0.24|IN VALVE|
+|||M0.0|MASTER|
+
+Note: All Raspberry Pi inputs are set to Pullup.<br>
+That's why the switches have to switch to ground.<br>
+
+Ladder Logic with redPlc on Raspberry Pi:
+Json file in examples folder **Tank_Control_RaspberryPi.json**
+
+![image info](images/TANK_CONTROL_RPI.png)
+
+This is the pin assignment for Wago Controller CC100:<br>
+|Pin|Set|Variable|Function|
+|:--|:--|:--|:--|
+|DI1|Input|I0.0|START|
+|DI2|Input|I0.1|STOP|
+|DI3|Input|I0.2|LOW SWITCH|
+|DI4|Input|I0.3|HIGH SWITCH|
+|DO1|Output|Q0.0|OUT VALVE|
+|DO2|Output|Q0.1|IN VALVE|
+|||M0.0|MASTER|
+
+Ladder Logic with redPlc Wago Controller CC100:<br>
+Json file in examples folder **Tank_Control_cc100.json**
+
+![image info](images/TANK_CONTROL_CC100.png)
