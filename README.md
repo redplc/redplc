@@ -50,7 +50,7 @@ https://www.sanfoundry.com/plc-program-control-level-single-tank/
 ![image info](images/TANK.png)
 
 ### Ladder Logic with Raspberry Pi
-low file is in examples folder: **Tank_Control_RaspberryPi.json**<br>
+Node-Red flow file is in examples folder: **Tank_Control_RaspberryPi.json**<br>
 
 This is the pin assignment for Raspberry Pi:<br>
 |GPIO Pin|Set|Variable|Function|
@@ -69,7 +69,7 @@ That's why the switches have to switch to ground.<br>
 ![image info](images/TANK_CONTROL_RPI.png)
 
 ### Ladder Logic with Wago Controller CC100
-Flow file is in examples folder: **Tank_Control_cc100.json**
+Node-Red flow file is in examples folder: **Tank_Control_cc100.json**
 
 This is the pin assignment for Wago Controller CC100:<br>
 |Pin|Set|Variable|Function|
