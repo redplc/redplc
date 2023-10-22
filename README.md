@@ -49,6 +49,9 @@ https://www.sanfoundry.com/plc-program-control-level-single-tank/
 
 ![image info](images/TANK.png)
 
+### Ladder Logic with Raspberry Pi
+low file is in examples folder: **Tank_Control_RaspberryPi.json**<br>
+
 This is the pin assignment for Raspberry Pi:<br>
 |GPIO Pin|Set|Variable|Function|
 |:--|:--|:--|:--|
@@ -63,10 +66,10 @@ This is the pin assignment for Raspberry Pi:<br>
 Note: All Raspberry Pi inputs are set to Pullup.<br>
 That's why the switches have to switch to ground.<br>
 
-Ladder Logic with redPlc on Raspberry Pi:
-Json file in examples folder **Tank_Control_RaspberryPi.json**
-
 ![image info](images/TANK_CONTROL_RPI.png)
+
+### Ladder Logic with Wago Controller CC100
+Flow file is in examples folder: **Tank_Control_cc100.json**
 
 This is the pin assignment for Wago Controller CC100:<br>
 |Pin|Set|Variable|Function|
@@ -79,7 +82,5 @@ This is the pin assignment for Wago Controller CC100:<br>
 |DO2|Output|Q0.1|IN VALVE|
 |||M0.0|MASTER|
 
-Ladder Logic with redPlc Wago Controller CC100:<br>
-Json file in examples folder **Tank_Control_cc100.json**
 
 ![image info](images/TANK_CONTROL_CC100.png)
