@@ -1,4 +1,4 @@
-# redPlc
+# redPlc Software-PLC
 
 redPlc Node-Red nodes for the realization of Software-PLC with Ladder-Logic according to IEC 61131-3.
 
