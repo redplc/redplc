@@ -23,9 +23,8 @@ redPlc Node-Red nodes for the realization of Software-PLC with Ladder-Logic acco
 |[@redplc/node-red-rpi-mcp3424](https://www.npmjs.com/package/@redplc/node-red-rpi-mcp3424)|**mcp3424** 18bit analog to digital converter|
 |[@redplc/node-red-rpi-ds18b20](https://www.npmjs.com/package/@redplc/node-red-rpi-ds18b20) |**ds18b20** temperature sensor|
 
-### Module Nodes for Wago CC100 Controller 
+### Module Nodes for special hardware 
 |Module-Node|Function|
 |---|---|
-|[@redplc/node-red-wago-cc100-io](https://www.npmjs.com/package/@redplc/node-red-wago-cc100-io)|CC100 I/O|
+|[@redplc/node-red-wago-cc100-io](https://www.npmjs.com/package/@redplc/node-red-wago-cc100-io)|Wago CC100 Controller I/O|
 
-## examples
