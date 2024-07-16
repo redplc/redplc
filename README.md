@@ -23,7 +23,8 @@ Module Nodes also creates the I, Q, IA and QA variables.<br>
 
 |Module-Node|Function|
 |---|---|
-|[@redplc/node-red-rpi-gpio](https://www.npmjs.com/package/@redplc/node-red-rpi-gpio)|**GPIO** digital input/output, pwm, counter.|
+|[@redplc/node-red-rpi-gpio](https://www.npmjs.com/package/@redplc/node-red-rpi-gpio)|**GPIO** digital input/output, pwm, counter with direct i/o|
+|[@redplc/node-red-redplc-gpiox](https://www.npmjs.com/package/@redplc/node-red-redplc-gpiox)|**GPIO** digital input/output using linux character device interface|
 |[@redplc/node-red-rpi-ads1115](https://www.npmjs.com/package/@redplc/node-red-rpi-ads1115)|**ads1115** 16bit analog to digital converter|
 |[@redplc/node-red-rpi-mcp3424](https://www.npmjs.com/package/@redplc/node-red-rpi-mcp3424)|**mcp3424** 18bit analog to digital converter|
 |[@redplc/node-red-rpi-ds18b20](https://www.npmjs.com/package/@redplc/node-red-rpi-ds18b20) |**ds18b20** temperature sensor|
