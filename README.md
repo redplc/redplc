@@ -3,7 +3,6 @@
 redPlc Node-Red nodes for the realization of Software-PLC with Ladder-Logic according to IEC 61131-3.
 
 <a href="https://www.buymeacoffee.com/iiot2ka" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-red.png" height="41" width="174"></a><br>
-Thanks for the coffee !! 😁
 
 - Download little tutorial using redPlc:
 [automation_using_nodered.pdf](https://github.com/redplc/redplc/raw/main/automation_using_nodered.pdf)
@@ -26,7 +25,7 @@ Module Nodes also creates the I, Q, IA and QA variables.<br>
 
 |Module-Node|Function|
 |---|---|
-|[@redplc/node-red-redplc-gpiox](https://www.npmjs.com/package/@redplc/node-red-redplc-gpiox)|**GPIO** digital input/output using linux V2 character device interface|
+|[@redplc/node-red-gpio](https://www.npmjs.com/package/@redplc/node-red-gpio)|**GPIO** digital input/output using linux V2 character device interface|
 |[@redplc/node-red-rpi-ads1115](https://www.npmjs.com/package/@redplc/node-red-rpi-ads1115)|**ads1115** 16bit analog to digital converter|
 |[@redplc/node-red-rpi-ds18b20](https://www.npmjs.com/package/@redplc/node-red-rpi-ds18b20) |**ds18b20** temperature sensor|
 
