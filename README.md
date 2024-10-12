@@ -29,10 +29,6 @@ Module Nodes also creates the I, Q, IA and QA variables.<br>
 |[@redplc/node-red-rpi-ads1115](https://www.npmjs.com/package/@redplc/node-red-rpi-ads1115)|**ads1115** 16bit analog to digital converter|
 |[@redplc/node-red-rpi-ds18b20](https://www.npmjs.com/package/@redplc/node-red-rpi-ds18b20) |**ds18b20** temperature sensor|
 
-### Module Nodes for special hardware 
-|Module-Node|Function|
-|---|---|
-|[@redplc/node-red-wago-cc100-io](https://www.npmjs.com/package/@redplc/node-red-wago-cc100-io)|Wago CC100 Controller I/O|
 
 ### Example
 
@@ -69,19 +65,3 @@ That's why the switches have to switch to ground.<br>
 
 ![image info](images/TANK_CONTROL_RPI.png)
 
-### Ladder Logic with Wago Controller CC100
-Node-Red flow file is in examples folder: **Tank_Control_cc100.json**
-
-This is the pin assignment for Wago Controller CC100:<br>
-|Pin|Set|Variable|Function|
-|:--|:--|:--|:--|
-|DI1|Input|I0.0|START|
-|DI2|Input|I0.1|STOP|
-|DI3|Input|I0.2|LOW SWITCH|
-|DI4|Input|I0.3|HIGH SWITCH|
-|DO1|Output|Q0.0|OUT VALVE|
-|DO2|Output|Q0.1|IN VALVE|
-|||M0.0|MASTER|
-
-
-![image info](images/TANK_CONTROL_CC100.png)
